@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/moha"
+    tools:context=".ConvertActivity">
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter the amount"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/textbox"
+       />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="268dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/textbox"
+   />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="268dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/textbox"
+   />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttin"
+        android:text="Button"
+    />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+   />
+</LinearLayout>
+
+
+
